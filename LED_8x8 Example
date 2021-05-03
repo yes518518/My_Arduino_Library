@@ -1,0 +1,9 @@
+#include <LED_8x8.h>
+LED_8x8 LD88; //宣告一個物件，用來處理8x8矩陣LED。
+void setup() {
+  
+}
+void loop() {
+  LD88.PlayAnime(5);
+  //如果你腳位沒接錯而且板子和線沒壞的話，你會看到小綠人在揮手。
+}
